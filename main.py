@@ -12,7 +12,6 @@ def photographic_encryption(user_text, user_size):
     for i in range(27):
         alphabet_color[alphabet_with_space[i]]=colors[i]
 
-    print(alphabet_color)
     def make_square ( size , color ) :
         a.speed ( 300 )
         a.fillcolor ( color )
@@ -144,8 +143,8 @@ def caesar_decryptor ( text , number ) :
     return decrypt
 
 
-user_method = input ( "Please select your cypher type (1- Caesar cipher , 2 – Pig Pen, 3- photographic_encryption :   " )
-operation = input ( "Enter you operation ( 1-encrypt , 2-decrypt):   " )
+user_method = input ( "Please select your cypher type (1- Caesar cipher , 2 – Pig Pen, 3- photographic_encryption :   ")
+operation = input ( "Enter you operation ( 1-encrypt , 2-decrypt) for photographic_encryption only encrypt:   " )
 # if user_method.lower() == "Pig Pen" or user_method.lower() == "2":
 # print("If need pigpen characters see this link")
 # time.sleep(5)
